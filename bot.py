@@ -22,12 +22,8 @@ def send_telegram_message(text):
 # ================= BYBIT AYARLARI =================
 WS_URL = "wss://stream.bybit.com/v5/public/spot"
 
-SYMBOLS = [
-    "AVNTUSDT",
-    "PIEVERSEUSDT",
-    "ZIGUSDT",
-    "GAIBUSDT",
-]
+SYMBOLS = ["*"]
+
 
 MIN_USD = 10000  # 10.000 USDT ve üzeri ALIM işlemleri
 
