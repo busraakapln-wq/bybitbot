@@ -26,6 +26,7 @@ SYMBOLS = ["*"]
 
 
 MIN_USD = 10000  # 10.000 USDT ve üzeri ALIM işlemleri
+print("Bot başladı! Tüm coinlerde büyük işlemler dinleniyor...")
 
 
 def on_message(ws, message):
